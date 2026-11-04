@@ -6,7 +6,7 @@ const containsDuplicate = function(nums) {
     if (set.has(num)) {
       return true; 
     }
-    set.add(num);
+    set.add(num);x
   }
 
   return false;
